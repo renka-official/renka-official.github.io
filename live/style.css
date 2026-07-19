@@ -46,6 +46,21 @@
    border: none;
   }
 
+ /* チケットフォーム */
+  .ticket-btn {
+    display: inline-block;
+    background: #485d87;
+    color: #fff;
+    padding: 12px 32px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.ticket-btn:hover {
+    opacity: 0.8;
+}
+
     /* スマホ用 */
 @media (max-width: 768px) {
 
