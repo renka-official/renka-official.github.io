@@ -1,0 +1,111 @@
+
+
+/* Renka */
+.top-img > img {
+   float: left;
+   width: auto;
+     height: auto;
+     max-width: 500px;
+     max-height: 500px;
+  }
+
+
+  /* メニュー */
+.top-text {
+   float: left;
+     font-size: 30px;
+     margin-top: 40px;
+     
+  }
+  .top-text a {
+   color: #485d87;
+   text-decoration: none
+}
+
+.hamburger {
+    display: none;
+}
+.menu {
+    display: none;
+}
+
+  .top-clearfix::after {
+   content: '';
+   clear: both;
+   display: block;
+  }
+  h1{
+   text-align:center;
+   color: grey;
+  }
+
+  hr{
+   height: 3px;
+   width: 100%;
+   background-color: grey;
+   border: none;
+  }
+
+    /* スマホ用 */
+@media (max-width: 768px) {
+
+  .top-img {
+    float:none;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .top-text {
+        display: none;
+    }
+
+    /* ハンバーガーメニュー */
+    header {
+      display: block;
+    background: #fff;
+    padding: 10px;
+}
+
+.hamburger {
+    display: block;
+    position: fixed; /* 画面に固定 */
+    top: 20px;       /* 上から20px */
+    right: 20px;     /* 右から20px */
+
+    font-size: 24px;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+}
+
+.menu.active {
+    display: block;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.menu li {
+  display: block;
+    margin: 10px 0;
+}
+
+.menu a {
+    color: #485d87;
+    text-decoration: none;
+}
+}
+
+ 
+
+ 
