@@ -46,6 +46,12 @@
    border: none;
   }
 
+.songs{
+    color: #485d87;
+    font-size: 30px;
+    text-align: center;
+  }
+
     /* スマホ用 */
 @media (max-width: 768px) {
 
