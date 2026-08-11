@@ -73,6 +73,10 @@
         display: none;
     }
 
+   .main-text{
+      font-size: 14px;
+    }
+
     /* ハンバーガーメニュー */
     header {
       display: block;
