@@ -95,6 +95,10 @@
         display: none;
     }
 
+       .live a{
+   margin-left: 30px;
+  }
+
     /* ハンバーガーメニュー */
     header {
       display: block;
