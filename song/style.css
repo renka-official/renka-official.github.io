@@ -67,6 +67,10 @@
         display: none;
     }
 
+   .songs{
+    font-size: 25px;
+  }
+
     /* ハンバーガーメニュー */
     header {
       display: block;
