@@ -66,13 +66,9 @@
    border: none;
   }
 
-  hr.line2{
-   border-top-style: dotted;
-   height: 3px;
-   width: 100%;
-   background-color: grey;
-   border: none;
-  }
+ .newsday{
+  margin-left: 20px;
+ }
 
   h2{
    color: grey;
